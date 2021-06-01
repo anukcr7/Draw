@@ -5,4 +5,4 @@ You can draw, erase change color of the pencil on your mobile screen, and save y
 I have build this app on Android Studio using Java and XMl.
 
 Snapshot on the app:
-![Screenshot](desktop/Screenshot_1622559348.png)
+![Screenshot](https://github.com/anukcr7/Draw/b![Screenshot_1622559359](https://user-images.githubusercontent.com/57328357/120347510-f8297f80-c319-11eb-920b-c0c62c31cd64.png)
