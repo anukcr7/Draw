@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.kyanogen.signatureview.SignatureView
+        android:id="@+id/signature_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:backgroundColor="#ffffff"
+        app:enableSignature="true"
+        app:penColor="#000000"
+        app:penSize="5dp" />
+
+    <LinearLayout
+        android:id="@+id/optionHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:id="@+id/penSize"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp">
+
+            </SeekBar>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPenSize"
+                android:text="5dp"
+                android:textColor="@color/black">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:gravity="end"
+            android:layout_weight="1">
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:id="@+id/btnEraser"
+                android:background="@color/white"
+                android:src="@drawable/ic_eraser"
+                android:scaleType="center"
+                android:layout_weight="1">
+            </ImageButton>
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:id="@+id/btnColor"
+                android:background="@color/white"
+                android:src="@drawable/ic_color"
+                android:scaleType="center"
+                android:layout_weight="1">
+            </ImageButton>
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:id="@+id/btnSave"
+                android:background="@color/white"
+                android:src="@drawable/ic_save"
+                android:scaleType="center"
+                android:layout_weight="1">
+            </ImageButton>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
