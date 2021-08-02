@@ -1,7 +1,7 @@
 # Draw
 Draw and Color on your screen!
 
-You can draw, erase change color of the pencil on your mobile screen, and save you drawings!
+You can draw, erase, change color of the pencil on your mobile screen, and save you drawings!
 I have build this app on Android Studio using Java and XML.
 
 Snapshot of the app:
